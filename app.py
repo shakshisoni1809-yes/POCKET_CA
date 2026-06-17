@@ -19,20 +19,19 @@ st.set_page_config(
 
 st.markdown("""
 <style>
-.stApp { background-color: #061B34; color: white; }
-[data-testid="stSidebar"] { background-color: #1E2F4F; }
-h1, h2, h3 { color: #D9D9D6; font-weight: 700; }
-p, label, span, div { color: white; }
-.stButton > button {
-    background-color: #496584; color: white; border-radius: 12px;
-    border: none; width: 100%; padding: 12px; font-weight: 600;
-}
-.stButton > button:hover { background-color: #7C92AF; color: #061B34; }
-.stTextInput input, .stTextArea textarea {
-    background-color: #1E2F4F; color: white; border: 1px solid #496584; border-radius: 10px;
-}
-.stChatMessage { background-color: #1E2F4F; border-radius: 12px; padding: 10px; margin-bottom: 10px; }
-.stCaption { color: #D9D9D6; }
+    .stApp { background-color: #0f172a; color: white; }
+    [data-testid="stSidebar"] { background-color: #1e293b; }
+    h1 { color: #38bdf8; }
+    .stButton > button {
+        background-color: #1e40af;
+        color: white;
+        border-radius: 10px;
+        border: none;
+        width: 100%;
+        padding: 12px;
+        font-size: 14px;
+    }
+    .stButton > button:hover { background-color: #2563eb; color: white; }
 </style>
 """, unsafe_allow_html=True)
 
