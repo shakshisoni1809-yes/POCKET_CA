@@ -16,6 +16,8 @@ from langchain_core.messages import (
     AIMessage
 )
 
+os.environ["PROTOCOL_BUFFERS_PYTHON_IMPLEMENTATION"] = "python"
+
 # ── STREAMLIT PAGE CONFIG ────────────────────────────────
 st.set_page_config(
     page_title="PocketCA",
